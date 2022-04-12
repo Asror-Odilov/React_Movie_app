@@ -1,13 +1,79 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+*{
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+body{
+  background-color: #050a13;
+  color: #f9f9f9;
+  font-family: 'Mitr', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a{
+  color: #f9f9f9;
+  text-decoration: none;
+}
+
+
+.container.active{
+  z-index: 1000;
+  margin-top: -1rem;
+  width: 100%;
+  height: 90px;
+  padding: 3rem 2.25rem;
+  background-color: #090b13;
+  box-shadow: 0 1px 10px -2px black;
+}
+
+/* ////////////////// For Entry Layer ///////////////// */
+
+.cover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1000;
+}
+
+.cover0{
+  background-color: rgb(4, 3, 12);
+  height: 150vh;
+}
+.cover1{
+  background: linear-gradient(#060611, rgb(4, 3, 12))
+}
+.cover2{
+    background-color: rgb(4, 5, 26)
+}
+
+
+@media only screen and (min-width: 768px){
+  body{
+     font-size: 16px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width:768px){
+  body{
+     font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 479px){
+  body{
+     font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 380px){
+  body{
+     font-size: 14px;
+  }
 }

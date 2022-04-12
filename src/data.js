@@ -1,0 +1,308 @@
+export const cardImages = [
+    {
+      id: 1,
+      img: "./images/Venom.jpg",
+      backImg: "./images/back_venom.jpg",
+      title: "Venom 2",
+      subTitle: "Let There Be Carnage",
+      year: "October 15, 2021",
+      genre: "Fantasy, Adventure, Action",
+      company: "Marvel Studios, Columbia Pictures",
+      director: "Andy Serkis",
+      awords: "Winner Golden Carp Film Award - International, Favorite Actor Tom Hardy. Nominee Golden Carp Film Award",
+      actors: "Tom Hardy, Tom Holland, Mechele Williams , Woody Herelson",
+      desc: "More than a year after those events, journalist Eddie Brock is trying to adapt to life as the host of the alien symbiote Venom, which endows him with superhuman abilities. Brock is trying to revive his career and interviews serial killer Cletus Kasadi, who, by the will of accident becomes the master of Carnage and escapes from prison after a failed execution."
+    },
+    {
+      id: 2,
+      img: "./images/card-phonex.jpg",
+      backImg: "./images/back_phonex.jpeg",
+      title: "Dark Pheonix",
+      subTitle: "Pheonix will raise",
+      year: "June 7, 2019",
+      genre: "Sci-fi, Fantasy, Adventure, Action",
+      company: "Twentieth Century Fox (presents) · Bad Hat Harry Productions ",
+      director: "Simon Kienberg",
+      awords: "Alliance of Women Film Journalists (2020).",
+      actors: "Sophie Turner, Jessica Chastain, James McAvoy, Michael Fasben",
+      desc: "Jean Gray gains incredible superpowers that change her and turn her into a Dark Phoenix. Now the X-Men will have to decide what is more important to them - the life of a team member or all people living in the world."
+    },
+    {
+      id: 3,
+      img: "./images/card-america.jpg",
+      backImg: "./images/back_america.jpg",
+      title: "Captain America",
+      subTitle: "The Winter Soldier",
+      year: "March 26, 2014",
+      genre: "Fantasy, Adventure, Action",
+      company: "Marvel Studios, Walt Disney",
+      director: "Joe Russo , Anthony Russo",
+      awords: "USA (2015). Oscar [Nominee]. Best Achievement in Visual Effects ; Broadcast Film Critics Association Awards (2015).",
+      actors: "With Chris Evans, Samuel L. Jackson, Scarlett Johansson",
+      desc: "After unprecedented events that brought the Avengers together for the first time, Steve Rogers, also known as Captain America, settles in Washington and tries to adapt to life in the modern world. But this hero is only dreaming of peace - trying to help a colleague from the agency S.I.T."
+    },
+    {
+      id: 4,
+      img: "./images/card-jungle.jpg",
+      backImg: "./images/back_jungle.jpg",
+      title: "Jungle Cruise",
+      subTitle: "Rollicking Thrill-Ride",
+      year: "July 30, 2021",
+      genre: "Adventure, Trailer",
+      company: "Walt Disney",
+      director: "Jaume Collet-Serra",
+      awords: "People's Choice Awards 2021",
+      actors: " Dwayne Johnson , Dani Garcia , Hiram Garcia , John Fox , Beau Flynn ,",
+      desc: "The brave wildlife explorer Lily Houghton sets out to travel to the headwaters of the Amazon to find the legendary tree that - according to the lore of South American Indian tribes - has magical healing properties. Lily will be accompanied by her refined brother McGregor and reckless cruise ship captain Frank."
+    },
+    {
+      id: 5,
+      img: "./images/card-spiderman.jpeg",
+      backImg: "./images/back_spiderman.jpg",
+      title: "Spider Man",
+      subTitle: "No Way Home",
+      year: "Dec 16 2021",
+      genre: "Fantasy, Adventure, Action",
+      company: "Marvel Studios, Walt Disney",
+      director: "John Watts",
+      awords: "USA (2021). Oscar [Nominee]. Best Achievement in Visual Effects ; Broadcast Film Critics Association Awards (2015).",
+      actors: "Tom Holland, Tobby McGuire, Andrew Garfield, Zendaya",
+      desc: "The life and reputation of Peter Parker are in jeopardy as Mysterio has revealed the secret of Spider-Man's identity to the world. Trying to rectify the situation, Peter turns to Stephen Strange for help, but things soon become much more dangerous."
+    },
+    {
+      id: 6,
+      img: "./images/card-shangchi.jpg",
+      backImg: "./images/back_shangchi.jpg",
+      title: "Shang Chi",
+      subTitle: "The Lord Of Rings",
+      year: "September 2, 2021",
+      genre: "Fantasy, Adventure, Action",
+      company: "Marvel Studios, Walt Disney",
+      director: "Destin Daniel Cretton",
+      awords: "Annie Awards (2022). Annie [Nominee]. Outstanding Achievement for Character Animation in a Live Action Production",
+      actors: "Simu Liu, Aquafina, Michelle Yeoh",
+      desc: "Master of the martial arts Shang-Chi must confront ghosts from his own past as he is pulled into the web of intrigue by the mysterious Ten Rings organization."
+    },
+    {
+    id: 7,
+      img: "./images/card_tarzan.jpg",
+      backImg: "./images/back_fon_tarzan.jpg",
+      title: "Tarzan",
+      subTitle: "Legenda",
+      year: "July 1 2016",
+      genre: "Adventure, Romance",
+      company: "Village Roadshow Pictures, Dark Horse Entertainment, Warner Bros.",
+      director: "David Yates",
+      awords: "ASCAP Film and Television Music Awards 2017",
+      actors: "Alexander Skarsgard, Margot Robbie, Samuel L Jeckson, Christopher Walts",
+      desc: "Adapted to life in London, Tarzan returns to his former home in the jungle to figure out what is happening in the camp of the mining company."
+    },
+    
+    {
+      id: 8,
+      img: "./images/card_notimedie.jpg",
+      backImg: "./images/back_notimedie.jpg",
+      title: "No Time To Die",
+      subTitle: "No Time To Die",
+      year: "Sep 22 2021",
+      genre: "Spy, Thriller",
+      company: "Metro Dolduen Mire",
+      director: "Carey Fukunagas",
+      awords: "Broadcast Film Critics Association Awards (2022). Critics Choice Award [Nominee]. Best Visual Effects.",
+      actors: "Daniel Craig, Léa Seydoux, Rami Malek, Ana de Armas",
+      desc: "James Bond has retired from operational service and is enjoying a quiet life in Jamaica. Everything changes when his old friend Felix Leiter from the CIA appears on the island asking for help. The mission to rescue a kidnapped scientist turns out to be more dangerous than originally thought"
+    },
+    {
+      id: 9,
+      img: "./images/card_freeguy.jpg",
+      backImg: "./images/back_freeguy.jpg",
+      title: "Free Guy",
+      subTitle: "Protagonist",
+      year: " Aug 13, 2021",
+      genre: "Comedy, Fantsy, Action",
+      company: " Maximum Effort, 21 Laps Entertainment, Berlanti Productions ",
+      director: " Sean Levy",
+      awords: "Awards. Broadcast Film Critics Association Awards (2022). Critics Choice Award [Nominee].",
+      actors: "Ryan Reynolds, Judie Comer, Taika Waititi, Pokimane",
+      desc: "For an employee of a large bank, everything goes smoothly until one day he finds out that the world around him is part of a huge video game where players can do whatever they want. And only he can save this world from final destruction."
+    },
+    {
+      id: 10,
+      img: "./images/card_witches.jpg",
+      backImg: "./images/back_witches.jpeg",
+      title: "Witches",
+      subTitle: "The Helloween",
+      year: "Oct 22, 2020",
+      genre: "Comedy, Fantasy, Adventure",
+      company: "Worner Bros Pictures",
+      director: "Robert Zemeckis",
+      awords: "Academy of Science Fiction, Fantasy & Horror Films, USA (2021). Saturn Award [Nominee]. Best Fantasy Film ; Image Awards (NAACP) (2021). ",
+      actors: "Ann Hataway, Octavia Spencer, Christine Chenoweth, Jazir Bruno",
+      desc: "At the end of 1967, the boy moved to his beloved grandmother in Demopolis, a rural town in Alabama. There, they accidentally encounter deceptively charming and devilishly cunning witches, so Granny wisely takes him to a luxury seaside resort. Alas, they arrive there exactly when the Greatest Sa May, the Main Witch gathers - of course, secretly - followers from all over the world to realize her terrible villainous plans."
+    },
+    {
+      id: 11,
+      img: "./images/card-widow.jpg",
+      backImg: "./images/back_widow.jpeg",
+      title: "Black Widow",
+      subTitle: "Black Widow",
+      year: "July 9, 2021",
+      genre: "Action, Fantacy",
+      company: "Marvel Studios, Thriller",
+      director: "Keith Shortland",
+      awords: " Las Vegas Film Critics Society Awards (2021). Sierra Award [Nominee]. Best Action Film (2021)",
+      actors: "Scarlet Johanson, Florence Pugh, Rachel Weisz, David Harbor",
+      desc: "Natasha Romanoff will have to face her past face to face. The Black Widow will have to remember what happened in her life long before joining the Avengers team, and learn about a dangerous conspiracy, into which her old acquaintances are drawn - Elena, Alexey, also known as the Red Guardian, and Melina."
+    },
+    {
+      id: 12,
+      img: "./images/card_eternals.jpg",
+      backImg: "./images/back_eternals.jpg",
+      title: "Eternals",
+      subTitle: "Eternals",
+      year: " November 5, 2021",
+      genre: "Adventure, Action",
+      company: "Marvel Studios",
+      director: "Chloe Zhao",
+      awords: "Winner of the Leica Oskar Barnack Award 2021 ... Photo: Ana Maria Arevalo Gozen / LOBA 2021 Days Eternal Series .",
+      actors: "Harry Styles, Angelina Jolie, Selma Hayek, Keyth Harrington",
+      desc: "The Eternals are members of a race of genetically enhanced superhumans living secretly on Earth. They were born 5 million years ago as a result of the experiments of powerful celestials. Endowed with incredible superpowers, for millennia they hid from human civilization secretly protecting people from monstrous deviants. However, the recent events and actions of Thanos have forced them to come to light."
+    },
+
+    {
+      id: 13,
+      img: "./images/card_witcher.jpg",
+      backImg: "./images/back_witcher.jpg",
+      title: "The Witcher",
+      subTitle: "Destiny is a beast",
+      year: "Dec 20, 2019",
+      genre: "Fantasy, Drama, Adventures",
+      company: "Twentieth Century Fox (presents) · Bad Hat Harry Productions ",
+      director: "Lauren Schmidt Hissrich",
+      awords: "Alliance of Women Film Journalists (2020).",
+      actors: "Henry Cavil, Fray Allan, Anya Chalotra, Joe Baty",
+      desc: "The Witcher is an American-Polish fantasy television series based on the series of novels of the same name by Andrzej Sapkowski. The first season premiered on Netflix on December 20, 2019, and the second season premiered on December 17, 2021. The third season was announced in September 2021."
+    },
+    {
+      id: 14,
+      img: "./images/card_mr_robot.jpg",
+      backImg: "./images/back_mr_robot.jpg",
+      title: "Mr Robot",
+      subTitle: "The Hacker",
+      year: "June 24, 2014",
+      genre: "Fantasy, Adventure, Action",
+      company: "Marvel Studios, Columbia Pictures",
+      director: " Sam Esmail",
+      awords: ": Golden Globe Award for Best Television Series - Drama ",
+      actors: "Rami Malek, Carly Chaikin, Christian Slater, Porsche Doubleday",
+      desc: "Mister Robot is an American psychological television series created by Sam Esmail and aired on USA Network from June 24, 2015 to December 22, 2019. The pilot episode Mr. Robot was shown at the SXSW festival and then released on YouTube for free."
+    },
+    {
+      id: 15,
+      img: "./images/card-riverdale.jpg",
+      backImg: "./images/back_riverdale.jpg",
+      title: "Riverdale",
+      subTitle: "Riverdale",
+      year: "Jan 26, 2017",
+      genre: "Drama, Detective, Youth drama",
+      company: "Berlanti Productions, Netflix",
+      director: "Katie Keane",
+      awords: "Academy of Science Fiction, Fantasy & Horror Films, USA (2017) · Breakthrough Performance Award [Winner] · Saturn Award [Winner] · Saturn Award [Nominee].",
+      actors: "KJ Apa, Cole Sprouse, Jackson, Kamila Mendes",
+      desc: "Riverdale is an American teen television drama based on the Archie comics. The show was designed by Archie Comics Chief Creative Officer Roberto Aguirre-Sacasa for The CW."
+    },
+    {
+      id: 16,
+      img: "./images/card_walking.jpg",
+      backImg: "./images/back_walking.jpg",
+      title: "The Walking Dead",
+      subTitle: "Rollicking Thrill-Ride",
+      year: "Oct 31, 2010",
+      genre: "Adventure, Triiler",
+      company: "AMC Studios",
+      director: "Jaume Collet-Serra",
+      awords: "The IGN People's Choice Awards are voted on annually by the general public, they honor the best in film, television, games, comics and anime. ",
+      actors: "Norman Reedus Frank Darabont , Angela Kang , Robert Kirkman",
+      desc: "The Walking Dead is an American post-apocalyptic television series developed by Frank Darabont and based on the comic book of the same name by Robert Kirkman, Tony Moore and Charlie Adlard. In the center of the plot is a small group of people trying to survive during a zombie apocalypse. "
+    },
+    {
+      id: 17,
+      img: "./images/card_squide.jpg",
+      backImg: "./images/back_squade.jpg",
+      title: "Squide Game",
+      subTitle: "Squide Game",
+      year: "Sep 17 2021",
+      genre: "Drama, Thriller, Horror Literature",
+      company: "Siren Pictures Inc.",
+      director: "Hwang Dong Hyuk",
+      awords: " AACTA International Award [Nominee] ; AFI Awards, USA (2022). Special Award [Winner] ; Asia Artist Awards (2021).",
+      actors: "Jung Ho Young, Lee Jong Jae, Kon Yu, Wee Ha Joon",
+      desc: "Squid Game is a South Korean web series in the genre of survival, action-adventure, thriller and drama. All nine episodes were directed and written by Hwang Dong Hyuk. Lee Jong Jae, Park Hae Soo, Oh Yeon Soo, Wee Ha Joon, Jung Ho Yeon, Ho Song Tae, Anupam Tripati and Kim Joo Ryung starred."
+    },
+    {
+      id: 18,
+      img: "./images/card_dieries.jpg",
+      backImg: "./images/back_dieries.jpg",
+      title: "Vampire Dieries",
+      subTitle: "True Love",
+      year: "august 16, 2009",
+      genre: "Fantasy, Adventure, Action",
+      company: "	Outerbanks Entertainment Alloy Entertainment CBS Television Studios Warner Bros. Television",
+      director: " Julie Plec",
+      awords: "The Complete Series). Academy of Science Fiction, Fantasy & Horror Films, USA 2017. Nominee Saturn Awardnp",
+      actors: "Ian Sommerhalder, Poul Wesley, Nina Dobrev, Candice Accola",
+      desc: "The Vampire Diaries is an American supernatural television drama series developed by Kevin Williamson and Julie Plec, based on the book series of the same name by Lisa Jane Smith. The television series aired on The CW from August 16, 2009 to March 10, 2017."
+    },
+    {
+    id: 19,
+      img: "./images/card_suits_1.jpg",
+      backImg: "./images/back_suits.jpg",
+      title: "Suits",
+      subTitle: "New Series",
+      year: "June 3 2011",
+      genre: " Legal drama",
+      company: "Village Roadshow Pictures, Dark Horse Entertainment, Warner Bros.",
+      director: "David Yates",
+      awords: "Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Drama Series ",
+      actors: "Gabriel Macht, Patrick J Adams, Megan Sussex, Christopher Walts",
+      desc: "Fors Majeure is an American legal drama television series directed by Aaron Korsh. The main roles were played by Gabriel Macht and Patrick J. Adams. The series premiered on June 23, 2011 on USA Network. The action takes place in a fictional law firm in New York."
+    },
+    
+    {
+      id: 20,
+      img: "./images/card_gametrons.jpg",
+      backImg: "./images/back_gametrons.jpg",
+      title: "Game Of Thrones",
+      subTitle: "The Winter Is Comming",
+      year: "Sep 22 2011",
+      genre: "TV Series, Action, Drama, Thriller, Adventure",
+      company: "Metro Dolduen Mire",
+      director: " David Benioff",
+      awords: "Broadcast Film Critics Association Awards (2022). Critics Choice Award [Nominee]. Best Visual Effects.",
+      actors: "Emilia Clark, Léa Seydoux, Rami Malek, Ana de Armas",
+      desc: "Game of Thrones is an American fantasy television series based on the novel A Song of Ice and Fire by George RR Martin. Directed by David Benioff and D.B. Weiss for HBO. Filming took place in several countries, including the UK, Malta, Croatia, Iceland and Morocco."
+    },
+    
+]
+
+
+
+
+export const videos = [
+  {
+    id: 1,
+    img: "./images/godzilla-img.jpg",
+    video: "./videos/Godzilla.mp4"
+  },
+  {
+    id: 2,
+    img: "./images/venom-img.jpg",
+    video: "./videos/Venom.mp4"
+  },
+  {
+    id: 3,
+    img: "./images/spiderman-img.jpg",
+    video: "./videos/Spiderman.mp4"
+  }
+]
+
